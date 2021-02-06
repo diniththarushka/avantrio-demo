@@ -1,0 +1,42 @@
+.map-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    transition: all ease 0.5s;
+}
+
+.map-container:hover {
+    height: 300px;
+}
+
+.expanded {
+    height: 50%;
+}
+
+.hint {
+    position: absolute;
+    text-align: center;
+    font-family: "proxima-nova-bold", "sans-serif";
+    font-size: 20px;
+    bottom: 5px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow {
+    transform: rotate(180deg);
+    margin-bottom: 2px;
+    transition: all ease 0.5s;
+}
+
+.arrow:hover {
+    transform: rotate(0deg);
+}
+
+
+.map-container:hover + .history {
+    top: 300px;
+}
+

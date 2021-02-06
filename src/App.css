@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "proxima-nova";
+    src: url("./common/fonts/ProximaNova-Regular.otf");
+}
+
+@font-face {
+    font-family: "proxima-nova-bold";
+    src: url("./common/fonts/Proxima\ Nova\ Bold.otf");
+}
+
+@font-face {
+    font-family: "proxima-nova-thin";
+    src: url("./common/fonts/Proxima\ Nova\ Thin.otf");
+}
+
+.App {
+    font-family: "proxima-nova", "sans-serif";
+    color: #222833;
+}

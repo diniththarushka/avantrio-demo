@@ -1,0 +1,89 @@
+.login-container {
+    margin-top: 20%;
+    transform: translateY(-50%);
+}
+
+body {
+    background-image: url('./assets/img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 40px;
+    color: #707070;
+}
+
+.normal {
+    font-weight: 300;
+    font-size: 20px;
+    color: #707070;
+}
+
+.small {
+    font-weight: 300;
+    font-size: 18px;
+    color: #707070;
+}
+
+.loginBtn {
+    width: 85%;
+    color: white;
+    font-weight: 500;
+    background: linear-gradient(#5890FF, #3A6BCE);
+    border-color: transparent;
+    padding: 4px;
+    border-radius: 35px;
+    transition: opacity 1s;
+}
+
+.loginBtn:hover {
+    opacity: 0.7;
+}
+
+.textfeild {
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 35px;
+    padding: 4px 8px 4px 8px;
+    margin-top: 10%;
+}
+
+.login-input {
+    width: 70%;
+    border: none;
+}
+
+.login-input:focus {
+    border: none;
+    outline: none;
+}
+
+.login-hr {
+    width: 25%;
+    border-top: 1px solid #707070;
+}
+
+::-webkit-input-placeholder {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+::-moz-placeholder {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+:-ms-input-placeholder {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+:-moz-placeholder {
+    font-size: 15px;
+    font-weight: 100;
+}

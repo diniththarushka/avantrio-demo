@@ -1,0 +1,41 @@
+.history {
+    position: absolute;
+    bottom: 0;
+    top: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: all ease 0.5s;
+}
+
+.records {
+    max-height: 100%;
+}
+
+.inactive {
+    color: #DCDDDF;
+}
+
+.vline {
+    height: 30px;
+    border-left: 1px solid rgba(34, 40, 51, 0.43);
+}
+
+.bordered {
+    border-bottom: 1px solid rgba(34, 40, 51, 0.43);
+}
+
+.active-bordered {
+    border-bottom: 3px solid #FF114A;
+}
+
+.table-record {
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #707070;
+}
+
+.map-link {
+    color: #004AD1;
+    cursor: pointer;
+}

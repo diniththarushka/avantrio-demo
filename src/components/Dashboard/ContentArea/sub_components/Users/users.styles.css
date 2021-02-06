@@ -1,0 +1,25 @@
+.user-category {
+    text-align: center;
+    color: #DCDDDF;
+    border-bottom: 1px solid rgba(34, 40, 51, 0.43);
+}
+
+.active {
+    color: #FF114A;
+    border-bottom: 2px solid #FF114A;
+}
+
+.user-record {
+    border: 1px solid rgba(112, 112, 112, 0.3);
+    border-radius: 4px;
+}
+
+.user-avatar {
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-family: "proxima-nova-bold", "sans-serif";
+    padding-top: 9px;
+    background-color: #707070;
+    border-radius: 50%;
+}

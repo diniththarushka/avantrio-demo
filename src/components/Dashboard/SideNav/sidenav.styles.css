@@ -1,0 +1,52 @@
+:root {
+    --sidenav-width: 80px;
+}
+
+.side-nav {
+    position: fixed;
+    background-color: #253244;
+    width: var(--sidenav-width);
+    height: 100vh;
+}
+
+.side-nav-item {
+    width: var(--sidenav-width);
+    height: var(--sidenav-width);
+    transition: opacity ease 0.4s;
+}
+
+.side-nav-item:hover {
+    opacity: 0.5;
+}
+
+.side-nav .btn-main {
+    background: #FF114A url("./assets/Group\ 537.png") no-repeat 50% 50%;
+    box-shadow: 0 5px 5px 0 #ff114921, 0 5px 5px 0 #ff114921;
+}
+
+.side-nav .btn-1 {
+    background: url("./assets/Group\ 538.png") no-repeat 50% 50%;
+}
+
+.side-nav .btn-2 {
+    background: url("./assets/Group\ 563.png") no-repeat 50% 50%;
+}
+
+.side-nav .btn-3 {
+    background: url("./assets/Group\ 548.png") no-repeat 50% 50%;
+}
+
+.side-nav .btn-4 {
+    background: url("./assets/Group\ 549.png") no-repeat 50% 50%;
+}
+
+.side-nav .btn-5 {
+    background: url("./assets/Group\ 555.png") no-repeat 50% 50%;
+}
+
+.side-nav .btn-avatar {
+    position: absolute;
+    bottom: 0;
+    background: url("./assets/Group\ 565.png") no-repeat 50% 50%;
+}
+

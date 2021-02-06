@@ -1,0 +1,106 @@
+:root {
+    --sidenav-width: 80px;
+}
+
+.content-area {
+    position: relative;
+    overflow-y: scroll;
+    margin-left: var(--sidenav-width);
+    height: 100vh;
+    background-color: #F4F6FA;
+}
+
+.contents {
+    position: relative;
+    height: 85%;
+    max-height: 85%;
+}
+
+.heading {
+    position: relative;
+    font-size: 30px;
+}
+
+.sos-container {
+    position: relative;
+}
+
+.ripple {
+    margin: auto;
+    margin-top: 10rem;
+    background-color: #fff;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    animation: ripple 2s linear infinite;
+}
+
+.msg-btn {
+    border: 1px solid #707070;
+    border-radius: 2px;
+    padding: 4px 40px 4px 40px;
+    background-color: white;
+    transition: all ease 0.5s;
+}
+
+.sos-btn {
+    position: relative;
+    padding: 13px 0 0 8px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 50px;
+    background-color: #ff114a;
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(255, 17, 74, .45);
+}
+
+.msg-btn-active {
+    border: 1px solid #ff114a;
+    border-radius: 2px;
+    padding: 4px 40px 4px 40px;
+    background-color: #ff114a;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.sos-btn-alert {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 95%;
+    background-color: #222833;
+    height: 1px;
+}
+
+.full-height {
+    height: 100%;
+    max-height: 100%;
+}
+
+.bold {
+    font-family: "proxima-nova-bold", "sans-serif";
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0rem rgba(255, 17, 74, 0.2),
+        0 0 0 1rem rgba(255, 17, 74, 0.2),
+        0 0 0 4rem rgba(255, 17, 74, 0.2),
+        0 0 0 10rem rgba(255, 17, 74, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 1rem rgba(255, 17, 74, 0.2),
+        0 0 0 4rem rgba(255, 17, 74, 0.2),
+        0 0 0 10rem rgba(255, 17, 74, 0.2),
+        0 0 0 16rem rgba(255, 17, 74, 0);
+    }
+}
